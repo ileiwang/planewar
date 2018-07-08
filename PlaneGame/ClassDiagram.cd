@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAboutDlg">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CAboutDlg::__unnamed_enum_0013_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PlaneGame.cpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlaneGame.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBall">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAIAAAABACAgAIAIAAAAAAAAAQAAAAAQAAAAAAMAA=</HashCode>
+      <FileName>Ball.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBomb">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAoAAAAAAAAgAAAIAAABAAIAMAAAAAAQABABAAAAA=</HashCode>
+      <FileName>Bomb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CBoss">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <InheritanceLine Type="CEnemy" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="2.677" />
+        <Point X="1.25" Y="3.625" />
+        <Point X="1.312" Y="3.625" />
+        <Point X="1.312" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAEAMIAAAAIAAgAAAIAAAAAAAAAIBAAAAQAAAAIAEQA=</HashCode>
+      <FileName>Boss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CEnemy" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEEgoAAgAAAAAkAAAAAACAAAQBAQAAgACQEAAQFANAA=</HashCode>
+      <FileName>Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CExplosion">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAIAAgABAAAgAAAIAAAAIAAAIAAAAAAQAQBAAAAAA=</HashCode>
+      <FileName>Explosion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameObject" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAgAAAgAAAAAAAAAAAAIAAAAAAQAAgAAAAEA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHelp">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CHelp::__unnamed_enum_000e_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Help.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAgAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Help.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame">
+    <Position X="18.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAACAAAiAAAgCAAAgAAAAAAAAAAABA=</HashCode>
+      <FileName>MainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMyPlane">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAKAAAAAAAAgAKAAAAABAACAEAAgACAQAAAKhABAA=</HashCode>
+      <FileName>MyPlane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlaneGameApp">
+    <Position X="16.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAQAAAABAAAAAAA=</HashCode>
+      <FileName>PlaneGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlaneGameDoc">
+    <Position X="18.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAACAAAgAAAACAgAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>PlaneGameDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlaneGameView" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CPlaneGameView::ObjType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PlaneGameView.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EQEBpgARQCBKogACOIbI6FQApXsgRQAAAApYAAARQQI=</HashCode>
+      <FileName>PlaneGameView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlaneSet">
+    <Position X="16.5" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CPlaneSet::__unnamed_enum_001a_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PlaneSet.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAABAAABAAQAAAAAAAAAJAAAAAAAA=</HashCode>
+      <FileName>PlaneSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CProtect">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAAECIgAAAAAAQAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Protect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTool">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQJAAAAAAAAgAIgAACAgAAAAECAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Tool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
